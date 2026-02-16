@@ -89,6 +89,19 @@ A proposta é evoluir o projeto gradualmente, incluindo inserção de dados, con
 
 ---
 
+## Como Executar o Projeto
+
+1. Criar o banco de dados no SGBD de sua preferência.
+2. Executar os scripts das tabelas na seguinte ordem:
+   - CLIENTES
+   - ATENDENTES
+   - CHAMADOS
+3. Verificar a criação das tabelas e suas restrições.
+
+O projeto foi desenvolvido utilizando conceitos compatíveis com MySQL.
+
+---
+
 ## Diagrama do Modelo ER
 
 Abaixo está a representação visual das entidades e seus relacionamentos:
