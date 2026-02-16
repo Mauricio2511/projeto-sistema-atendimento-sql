@@ -87,3 +87,10 @@ Este projeto tem como finalidade consolidar conhecimentos em modelagem relaciona
 
 A proposta é evoluir o projeto gradualmente, incluindo inserção de dados, consultas com JOIN e possíveis melhorias na estrutura do banco de dados.
 
+---
+
+## Diagrama do Modelo ER
+
+Abaixo está a representação visual das entidades e seus relacionamentos:
+
+![Diagrama do Modelo ER](./docs/diagrama_modelo_er.png)
