@@ -107,3 +107,25 @@ O projeto foi desenvolvido utilizando conceitos compatíveis com MySQL.
 Abaixo está a representação visual das entidades e seus relacionamentos:
 
 ![Diagrama do Modelo ER](./docs/diagrama_modelo_er.png)
+
+---
+
+## Inserção de Dados (DML)
+
+Após a criação das tabelas, foi desenvolvido um script `inserts.sql` para popular o banco com dados iniciais de teste.
+
+O script inclui:
+
+- Inserção múltipla de registros utilizando `INSERT INTO`
+- Respeito às restrições de `FOREIGN KEY`
+- Utilização de `NULL` para campos opcionais
+- Distribuição coerente de chamados entre clientes e atendentes
+
+Esse processo permitiu validar:
+
+- Integridade referencial
+- Funcionamento das chaves estrangeiras
+- Regras de obrigatoriedade (NOT NULL)
+- Consistência entre status e data de fechamento
+
+
