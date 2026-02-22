@@ -248,3 +248,55 @@ As consultas desta etapa permitem simular cenários reais de análise operaciona
 As evidências apresentadas demonstram a correta aplicação de operadores condicionais e reforçam o domínio da lógica de filtragem em SQL, preparando a base para análises agregadas na próxima etapa do projeto.
 
 ---
+
+## Agregações e Métricas (GROUP BY e COUNT)
+
+As consultas desta etapa estão documentadas no arquivo [`queries_nivel3.sql`](./queries_nivel3.sql).
+
+O objetivo desta fase foi aplicar funções de agregação para transformar dados operacionais em informações analíticas.
+
+Foram utilizados os seguintes conceitos:
+
+- Função `COUNT(*)` para contagem de registros
+- Agrupamento com `GROUP BY`
+- Uso de alias para melhor legibilidade dos resultados
+- Ordenação de métricas com `ORDER BY`
+- Aplicação de filtros antes da agregação
+
+As consultas desta etapa simulam cenários comuns de análise em Business Intelligence, como identificação de volume total, distribuição por status e análise temporal.
+
+---
+
+### 🔎 Contagem Total de Chamados
+
+<img width="380" height="216" alt="image" src="https://github.com/user-attachments/assets/6a71966b-e18d-418c-97a6-96204c5bd784" />
+
+---
+
+### 🔎 Quantidade de Chamados por Status
+
+<img width="313" height="295" alt="image" src="https://github.com/user-attachments/assets/bb270a24-62eb-4abd-9367-fc52dc5d8954" />
+
+---
+
+### 🔎 Quantidade de Chamados por Ano de Abertura
+
+<img width="417" height="292" alt="image" src="https://github.com/user-attachments/assets/b57d142f-f504-4aa4-87b8-ef9864f3f5d5" />
+
+---
+
+### 🔎 Contagem de Chamados Não Finalizados
+
+<img width="440" height="242" alt="image" src="https://github.com/user-attachments/assets/1d517b57-8717-47ae-ae72-ddb0bcea7393" />
+
+---
+
+### 🔎 Quantidade de Chamados por Status (Após 2026-01-01)
+
+<img width="345" height="325" alt="image" src="https://github.com/user-attachments/assets/d3b74694-1a79-453e-97a8-4b9660448626" />
+
+---
+
+As evidências apresentadas demonstram a capacidade de transformar dados brutos em indicadores quantitativos, etapa essencial para análises gerenciais e construção de dashboards.
+
+---
