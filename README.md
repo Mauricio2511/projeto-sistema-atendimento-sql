@@ -112,7 +112,7 @@ Abaixo está a representação visual das entidades e seus relacionamentos:
 
 ## Inserção de Dados (DML)
 
-Após a criação das tabelas, foi desenvolvido um script `inserts.sql` para popular o banco com dados iniciais de teste.
+Após a criação das tabelas, foi desenvolvido um script [`inserts.sql`](./inserts.sql) para popular o banco com dados iniciais de teste.
 
 O script inclui:
 
@@ -128,4 +128,32 @@ Esse processo permitiu validar:
 - Regras de obrigatoriedade (NOT NULL)
 - Consistência entre status e data de fechamento
 
+---
 
+## Atualização de Dados (UPDATE)
+
+As alterações realizadas nos registros estão documentadas no arquivo [`updates.sql`](./updates.sql).
+
+O script contempla o processo completo de atualização, incluindo:
+
+- Consulta prévia com `SELECT` para validação do registro
+- Utilização de `UPDATE` com cláusula `WHERE`
+- Correção controlada de campos específicos
+- Consolidação de múltiplas alterações em uma única instrução quando aplicável
+
+A inclusão das consultas de validação simula uma prática comum em ambiente de produção, onde é essencial confirmar os dados antes de aplicar modificações, reduzindo riscos de alterações indevidas.
+
+---
+
+## Exclusão de Dados (DELETE)
+
+O procedimento de exclusão está documentado no arquivo [`deletes.sql`](./deletes.sql).
+
+O script demonstra uma exclusão controlada e segura, contendo:
+
+- Identificação prévia do registro via `SELECT`
+- Verificação específica por chave primária
+- Execução de `DELETE` com cláusula `WHERE`
+- Respeito às regras de integridade referencial definidas no banco
+
+Assim como no processo de atualização, as consultas de validação foram mantidas no script para evidenciar a adoção de boas práticas antes da remoção de dados.
