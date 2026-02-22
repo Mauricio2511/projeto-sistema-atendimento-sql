@@ -157,3 +157,48 @@ O script demonstra uma exclusão controlada e segura, contendo:
 - Respeito às regras de integridade referencial definidas no banco
 
 Assim como no processo de atualização, as consultas de validação foram mantidas no script para evidenciar a adoção de boas práticas antes da remoção de dados.
+---
+
+## Consultas Básicas (SELECT)
+
+As consultas iniciais estão documentadas no arquivo [`queries_nivel1.sql`](./queries_nivel1.sql).
+
+Esta etapa contempla operações fundamentais da linguagem SQL, incluindo:
+
+- Listagem completa dos registros da tabela `chamados`
+- Aplicação de filtro utilizando cláusula `WHERE`
+- Ordenação de resultados com `ORDER BY`
+- Limitação de registros utilizando `LIMIT`
+- Aplicação de boas práticas ao combinar `ORDER BY` com `LIMIT`
+
+As consultas foram executadas com o objetivo de validar a integridade dos dados inseridos e consolidar os fundamentos necessários para análises mais avançadas.
+
+Abaixo estão os resultados obtidos a partir da execução das queries:
+
+### 🔎 Listagem Completa de Chamados (Exibição parcial dos registros para validação da estrutura e integridade dos dados.)
+
+<img width="961" height="323" alt="image" src="https://github.com/user-attachments/assets/1839dbe9-9f1b-4898-aee6-623f06e1696f" />
+
+---
+
+### 🔎 Filtro por Status (ABERTO)
+
+<img width="961" height="708" alt="image" src="https://github.com/user-attachments/assets/24008f5a-bb71-455e-ad0f-afb8c4ba7a5d" />
+
+---
+
+### 🔎 Ordenação por Data de Abertura (Mais Recente → Mais Antigo) (Exibição parcial dos registros)
+
+<img width="960" height="324" alt="image" src="https://github.com/user-attachments/assets/bb26a55c-b3b7-4d42-8531-904cc309a56b" />
+
+---
+
+### 🔎 Limitação de Resultados (Top 5 por ID)
+
+<img width="959" height="260" alt="image" src="https://github.com/user-attachments/assets/d1c988b4-2460-4a2d-92b5-ef855912d203" />
+
+---
+
+As evidências apresentadas demonstram o correto funcionamento das instruções de consulta, garantindo base consistente para aplicação de filtros compostos, agregações e junções entre tabelas nas próximas etapas do projeto.
+
+---
