@@ -202,3 +202,49 @@ Abaixo estão os resultados obtidos a partir da execução das queries:
 As evidências apresentadas demonstram o correto funcionamento das instruções de consulta, garantindo base consistente para aplicação de filtros compostos, agregações e junções entre tabelas nas próximas etapas do projeto.
 
 ---
+
+## Filtros Compostos (WHERE Avançado)
+
+As consultas desta etapa estão documentadas no arquivo [`queries_nivel2.sql`](./queries_nivel2.sql).
+
+O objetivo desta fase foi aprofundar a utilização de filtros condicionais, explorando diferentes operadores lógicos e técnicas de comparação.
+
+Foram aplicados os seguintes conceitos:
+
+- Uso combinado de `AND` e `OR`
+- Utilização do operador `IN` para múltiplos valores
+- Filtro por intervalo de datas com `BETWEEN`
+- Identificação de registros com valores nulos (`IS NULL`)
+- Controle de precedência lógica com parênteses
+
+As consultas desta etapa permitem simular cenários reais de análise operacional, como identificação de backlog, filtragem por período e análise de status específicos.
+
+---
+
+### 🔎 Filtro por Status e Ano Específico
+
+<img width="954" height="804" alt="image" src="https://github.com/user-attachments/assets/44a26dc1-5a13-4388-8069-196b89d92e6b" />
+
+### 🔎 Filtro por Múltiplos Status (IN) (Exibição parcial limit 10)
+
+<img width="955" height="437" alt="image" src="https://github.com/user-attachments/assets/499b4f38-06bb-46c8-9fbe-e6c5060c1fa9" />
+
+### 🔎 Filtro por Intervalo de Datas (BETWEEN) (Exibição parcial limit 10)
+
+<img width="956" height="414" alt="image" src="https://github.com/user-attachments/assets/d015077d-1a19-4797-b313-bfe45543162c" />
+
+### 🔎 Identificação de Registros Não Finalizados (IS NULL)
+
+<img width="951" height="420" alt="image" src="https://github.com/user-attachments/assets/9f3130c1-dd3b-4e56-b038-ee4f4a1802d2" />
+
+---
+
+### 🔎 Filtro Combinado com AND / OR (Precedência Lógica) (Exibição parcial limit 20)
+
+<img width="957" height="612" alt="image" src="https://github.com/user-attachments/assets/1991c8c0-dc42-4ab8-ba78-ea7cfc243eb0" />
+
+---
+
+As evidências apresentadas demonstram a correta aplicação de operadores condicionais e reforçam o domínio da lógica de filtragem em SQL, preparando a base para análises agregadas na próxima etapa do projeto.
+
+---
