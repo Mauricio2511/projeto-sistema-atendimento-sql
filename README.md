@@ -1,14 +1,18 @@
 # Sistema de Atendimento - Modelagem em SQL
 
-Projeto prático de modelagem de banco de dados relacional simulando um sistema de atendimento ao cliente.
+Projeto prático de modelagem e exploração de banco de dados relacional, simulando um sistema de atendimento ao cliente.
 
-O objetivo deste projeto é aplicar conceitos fundamentais de SQL e modelagem de dados, incluindo:
+O objetivo do projeto é aplicar conceitos fundamentais e intermediários de SQL, abrangendo:
 
-- Criação de tabelas
-- Chaves primárias (Primary Key)
-- Chaves estrangeiras (Foreign Key)
-- Cardinalidade
-- Integridade referencial
+- Modelagem de dados relacional
+- Definição de chaves primárias e estrangeiras
+- Garantia de integridade referencial
+- Inserção estruturada de dados
+- Consultas e filtros condicionais
+- Agregações e geração de métricas
+- Relacionamento entre tabelas (JOIN)
+
+O projeto evolui por níveis, demonstrando a progressão desde a estruturação do banco até a geração de informações analíticas, simulando cenários próximos à realidade de operações e Business Intelligence.
 
 ---
 
