@@ -161,6 +161,27 @@ O script demonstra uma exclusão controlada e segura, contendo:
 - Respeito às regras de integridade referencial definidas no banco
 
 Assim como no processo de atualização, as consultas de validação foram mantidas no script para evidenciar a adoção de boas práticas antes da remoção de dados.
+
+---
+
+## Inserção de Dados em Massa (Bulk Insert)
+
+Para viabilizar análises mais próximas de um cenário real, foi realizada a carga estruturada de dados na base por meio de inserção em massa.
+
+O procedimento está documentado no arquivo [`bulk_insert.sql`](./bulk_insert.sql).
+
+A carga contempla:
+
+- Inserção de múltiplos registros em um único comando `INSERT`
+- Simulação de diferentes status de atendimento
+- Variação de datas de abertura e fechamento
+- Relacionamento entre clientes, atendentes e chamados
+- Volume suficiente para realização de consultas analíticas
+
+Ao todo, foram inseridos 80 registros na tabela `chamados`, garantindo base consistente para aplicação de filtros, agregações e junções entre tabelas.
+
+A utilização de bulk insert permite simular um ambiente operacional mais realista e possibilita a validação das consultas desenvolvidas nas etapas seguintes do projeto.
+
 ---
 
 ## Consultas Básicas (SELECT)
