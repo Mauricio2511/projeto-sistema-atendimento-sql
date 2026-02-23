@@ -168,7 +168,7 @@ Assim como no processo de atualização, as consultas de validação foram manti
 
 Para viabilizar análises mais próximas de um cenário real, foi realizada a carga estruturada de dados na base por meio de inserção em massa.
 
-O procedimento está documentado no arquivo [`bulk_insert.sql`](./bulk_insert.sql).
+O procedimento está documentado no arquivo [`bulk_inserts.sql`](./bulk_inserts.sql).
 
 A carga contempla:
 
